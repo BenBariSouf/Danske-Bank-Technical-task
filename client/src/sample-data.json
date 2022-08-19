@@ -1,0 +1,26 @@
+[
+	{
+		"id": "6ebc26b0-1e1e-11ed-85cc-a56299ac95cb",
+		"plateNumber": "6953-A-35",
+		"owner": "John Doe",
+		"created_on": "2022-08-17T14:49:08.247Z"
+	},
+	{
+		"id": "35113c30-1ed6-11ed-aa37-2162d3db26a2",
+		"plateNumber": "1691-A-11",
+		"owner": "Mike Smith",
+		"created_on": "2022-08-17T12:37:43.221Z"
+	},
+	{
+		"id": "8849a5c0-1ee7-11ed-a45f-792d94213b61",
+		"plateNumber": "22394-C-55",
+		"owner": "Stacy Martin",
+		"created_on": "2022-08-17T11:18:49.117Z"
+	},
+	{
+		"id": "4516e1b10-1ef3-11ed-875e-bb7adffc161d",
+		"plateNumber": "91634-A-20",
+		"owner": "James Strachan",
+		"created_on": "2022-08-18T12:43:11.041Z"
+	}
+]

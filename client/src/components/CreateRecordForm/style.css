@@ -1,0 +1,20 @@
+.input-wrapper {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+}
+
+.header {
+	text-align: center;
+}
+
+.header h2 {
+	padding-top: 20px;
+}
+
+.button-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 40px;
+}

@@ -1,0 +1,140 @@
+body {
+	margin: 0;
+	/* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background: #eeea;
+}
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.container {
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form-wrapper {
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+
+.form-btn {
+	padding: 0.9em 1em;
+	background-color: #16db93;
+	border: none;
+	font-family: "PT Sans", sans-serif;
+	font-size: 1em;
+	cursor: pointer;
+	border-radius: 0.2em;
+	margin: 0.5em 0;
+}
+.records {
+	margin: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.plates__header {
+	display: grid;
+	align-items: center;
+	grid-template-columns: 60px 250px 350px 200px;
+	padding: 5px;
+}
+
+.separator {
+	/* border: none;
+	height: 100px;
+	background-color: #535353; */
+	/* margin-top: -5px; */
+	/* margin-bottom: 16px; */
+}
+
+.records .record {
+	display: grid;
+	align-items: center;
+	grid-template-columns: 60px 250px 350px 200px;
+}
+
+tr:hover {
+	background-color: #ededed;
+}
+
+.mymodal {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	border: 1px solid #ccc;
+	background: #fff;
+	overflow: auto;
+	border-radius: 4px;
+	outline: none;
+	padding: 20px;
+}
+
+.myoverlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.ReactModal__Overlay {
+	opacity: 0;
+	transition: opacity 500ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+	opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+	opacity: 0;
+}
