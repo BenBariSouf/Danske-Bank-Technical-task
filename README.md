@@ -34,7 +34,7 @@ $ cd client && npm install
 ```
 
 The next step is preferable but not strictly necessary.
-Create an `.env` file in both the root of the project and the client directory based on the provided `.env.example` files.
+Create an `.env` file in both the root of the project and the client directory based on the provided `.env.example` files. Make sure to use the same value in both files.
 
 - In the root folder:
 
@@ -72,4 +72,4 @@ $ npm run test
 $ npm i -D --exact jest-watch-typeahead@0.6.5
 ```
 
-You can read more about this error [here](https://github.com/facebook/create-react-app/issues/11043)
+You can read more about this error [here.](https://github.com/facebook/create-react-app/issues/11043)
